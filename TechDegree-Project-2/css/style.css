@@ -1,0 +1,207 @@
+* { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;         
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ebebeb;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;       
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+    padding: 1rem;
+}
+
+h2 {
+    padding-top: 1em;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 1em;
+}
+
+h4 {
+    font-family: 'Roboto' , sans-serif;
+}
+
+h1, h2, h3, a {
+    font-family: 'Roboto' , sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:active {
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+li {
+    background-color: #fff;
+    margin: .3rem 0;
+    
+}
+
+span {
+    font-weight: bold;
+}
+
+hr {
+    width: 80%;
+    color: #e3e3e3;
+}
+
+
+.mobile-nav {
+    display: inline;
+    margin:  2rem 1rem;
+    padding: .5rem;
+}
+
+.large-nav {
+    display: none;
+}
+
+.footer-nav {
+    display: none;
+}
+
+.footer-heading {
+    display: inline-block;
+    /* margin-right: 20rem; */
+}
+
+.bottom-nav {
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+
+    li {
+        background-color: #ebebeb;
+        display: inline;
+        margin: 0 1.5rem;
+    }
+
+    header img {
+        float: right;
+    }
+
+    header p {
+        text-align: left;
+    }
+
+    .med-left {
+        float: left;
+        width: 50%;   
+    }
+
+    .med-right {
+        float: right;
+        width: 50%;
+    }
+
+    footer p {
+        margin: 2rem 0;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .large-nav {
+        display: inline;
+        margin: 0 1rem;
+    }
+    
+    .footer-nav {
+        display: inline-block;
+        margin: 1rem;
+    }
+
+    .footer-heading {
+        margin-right: 20rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    h1 {
+    display: inline-block;
+    text-align: left;
+    margin-right: 13rem;
+    }
+
+    nav {
+        display: inline-block;
+        margin-left: 3rem;
+    }
+
+    .container-top {
+        text-align: left;
+    }
+
+    header ul {
+        display: inline-block;
+        margin: 1rem 0;
+    }
+
+    .lrg-left {
+        float: left;
+        width: 33%;
+    }
+
+    .lrg-mid {
+        float: left;
+        width: 33%;
+    }
+
+    .lrg-right {
+        width: 33%;
+    }
+
+
+
+}
+
+
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
